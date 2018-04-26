@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "target": "es6",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "UMD",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": ".debug",
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*", "components/types/*"]
+        }
+    },
+    "include": ["components/**/*"],
+    "exclude": ["node_modules", "lib", "es", "**/*.test.ts"]
+}

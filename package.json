@@ -1,0 +1,34 @@
+{
+  "name": "kit-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "kit-tools run compile",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "roadhog dev",
+    "build": "roadhog build",
+    "test": "roadhog test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fushenyou/kit-react.git"
+  },
+  "author": "fusy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fushenyou/kit-react/issues"
+  },
+  "homepage": "https://github.com/fushenyou/kit-react#readme",
+  "devDependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/prop-types": "^15.5.2",
+    "@types/react": "^16.3.12",
+    "antd": "^3.4.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "kit-tools": "^1.0.6",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "roadhog": "^2.3.0"
+  }
+}
